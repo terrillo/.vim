@@ -9,5 +9,9 @@ set showmatch
 set hlsearch
 
 let NERDTreeShowHidden=1
+let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
+
+
+colorscheme Tomorrow-Night
 
 autocmd VimEnter * NERDTree
